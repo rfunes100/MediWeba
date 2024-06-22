@@ -18,6 +18,10 @@ namespace MediWeb.Controllers
         EnfermedadesConsulta EnfermedadesConsultas = new EnfermedadesConsulta();
         ClasificacionEnfermedadesConsultas ClasificacionEnfermedadesConsulta = new ClasificacionEnfermedadesConsultas();
 
+
+        EspecialidadMedicaConsulta EspecialidadMedicaConsultas = new EspecialidadMedicaConsulta();
+
+
         public IActionResult Listar()
         {
             var enfermeraLista = EnfermedadesConsultas.Listar();
@@ -28,6 +32,8 @@ namespace MediWeb.Controllers
 
         public IActionResult Guardar()
         {
+
+            CargarEspecialidadMedica();
 
             CargarClasificacionEnfermedades();
             return View();
@@ -127,6 +133,20 @@ namespace MediWeb.Controllers
             ViewBag.Categories = new SelectList(categories, "Id", "Descripcion");
            
         }
+
+        [NonAction]
+        private void CargarEspecialidadMedica()
+        {
+            var categories = EspecialidadMedicaConsultas.Listar();
+
+
+            //    var enfermeraLista = EnfermedadesConsultas.Listar();
+            ViewBag.Especialidades = new SelectList(categories, "id", "Nombre");
+
+        }
+
+
+  
 
     }
 }

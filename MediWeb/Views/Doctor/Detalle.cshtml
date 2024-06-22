@@ -1,25 +1,29 @@
-﻿@model EnfermedadesModel
+﻿@model DoctorModel
 
 
 
 
 @{
-    ViewData["Title"] = "Editar";
+    ViewData["Title"] = "Detalle";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 
+
+
+
 <div class="card">
     <div class="card-header">
-        Editar Enfermedad
+        Editar Doctor
     </div>
     <div class="card-body">
 
-        <form asp-action="Editar" asp-controller="Enfermedades" method="post">
+        <form asp-action="Editar" asp-controller="Doctor" method="post">
 
-            <input asp-for="Id" type="hidden" class="form-control" id="exampleInputEmail1">
+            <input asp-for="id" type="hidden" class="form-control" id="exampleInputEmail1">
 
 
+@* 
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">DescripcionGrupo</label>
                 <input asp-for="DescripcionGrupo" type="text" class="form-control" id="exampleInputEmail1">
@@ -48,12 +52,13 @@
             </button>
             <a asp-action="Listar" asp-controller="Enfermedades" class="btn btn-warning">
                 <i class="bi bi-arrow-left-circle-fill"></i> Volver a la lista
-            </a>
+            </a> *@
          
         </form>
 
 
     </div>
 </div>
+
 
 

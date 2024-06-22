@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\rfune3\source\repos\MediWeb\MediWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/Doctor/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERldGFsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/Doctor/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/Doctor/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEd1YXJkYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/Doctor/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXExpc3Rhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/Enfermedades/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mZXJtZWRhZGVzXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,12 +64,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mZXJtZXJhXExpc3Rhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/EspecialidadDoctor/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkRG9jdG9yXEVsaW1pbmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/EspecialidadDoctor/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkRG9jdG9yXEd1YXJkYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/EspecialidadDoctor/ListaDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkRG9jdG9yXExpc3RhRG9jdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/ProcedimientosMedicos/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1pZW50b3NNZWRpY29zXEd1YXJkYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/ProcedimientosMedicos/ListaDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1pZW50b3NNZWRpY29zXExpc3RhRG9jdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/rfune3/source/repos/MediWeb/MediWeb/Views/Shared/Error.cshtml]

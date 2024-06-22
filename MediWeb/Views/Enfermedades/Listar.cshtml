@@ -43,7 +43,7 @@
                         <td>@item.Id</td>
                         <td>@item.DescripcionGrupo</td>
                         <td>@item.DescripcionLarga</td>
-                        <td>@item.Clasificaciones.Descripcion</td>
+                        <td>@item.Clasificaciones?.Descripcion</td>
                          <td>
                             <a asp-action="Editar" asp-controller="Enfermedades" class="btn btn-primary" asp-route-idEnfermedad="@item.Id">
                                 <i class="bi bi-pencil-square"></i> Editar

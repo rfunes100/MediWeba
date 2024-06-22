@@ -21,5 +21,7 @@ namespace MediWeb.Models
         // Relación con la tabla Clasificacion
         public virtual  ClasificacionEnfermedadesModel? Clasificaciones { get; set; }
 
+
+
     }
 }

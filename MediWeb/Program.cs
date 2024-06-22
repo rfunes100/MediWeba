@@ -28,6 +28,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Enfermedades}/{action=Listar}/{id?}");
+    pattern: "{controller=Doctor}/{action=Listar}/{id?}");
 
 app.Run();
