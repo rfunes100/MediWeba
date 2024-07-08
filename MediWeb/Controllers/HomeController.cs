@@ -23,6 +23,11 @@ namespace MediWeb.Controllers
             return View();
         }
 
+        public IActionResult PedirPermiso()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

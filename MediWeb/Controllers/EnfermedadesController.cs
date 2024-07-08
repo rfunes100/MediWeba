@@ -30,6 +30,7 @@ namespace MediWeb.Controllers
 
 
 
+
         public IActionResult Guardar()
         {
 
@@ -38,6 +39,7 @@ namespace MediWeb.Controllers
             CargarClasificacionEnfermedades();
             return View();
         }
+
 
 
         [HttpPost]
